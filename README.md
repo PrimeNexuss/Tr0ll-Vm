@@ -90,7 +90,9 @@ Anonymous FTP login succeeded. A single file `lol.pcap` (8,068 bytes) was presen
 wireshark lol.pcap
 ```
 
+
 Opened `lol.pcap` in Wireshark. Analysis of the FTP-DATA stream (packet 40) revealed the contents of `secret_stuff.txt` being transferred in plaintext. The file leaked the hidden web directory: **`/sup3rs3cr3tdirlol`**.
+
 ---
 
 ### 4. Web Enumeration — Hidden Directory & Binary
